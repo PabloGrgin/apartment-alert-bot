@@ -1,0 +1,14 @@
+global:
+  max_price: 700
+  min_size: 30
+  min_rooms: 1
+
+sources:
+  njuskalo:
+    enabled: false
+    urls:
+      - "https://www.njuskalo.hr/iznajmljivanje-stanova/zagreb?price[min]=500&price[max]=700&includeOtherCategories=1&livingArea[min]=30&adsWithImages=1&numberOfRooms[min]=one-room&numberOfRooms[max]=two-rooms&numberOfParkingSpots[min]=none&numberOfParkingSpots[max]=2&parkingSpotType[parking-garage]=1&parkingSpotType[garage-spot]=1&parkingSpotType[parking-outdoor-covered]=1&parkingSpotType[parking-garage-outdoor-notcovered]=1&parkingSpotType[parking-public-free]=1&yearlyAvailability=all-year&furnishLevelAndCondition[furnished]=1"
+
+  index:
+    enabled: false
+    urls: []
